@@ -13,7 +13,7 @@ email.value = objOfValue.email.trim();
 message.value = objOfValue.message.trim();
 
 formRef.addEventListener('input', throttle(onInputForm, 500));
-formRef.addEventListener('submit', onSubmitForm);
+formRef.addEventListener('submit', onsubmitForm);
 
 function onInputForm(event) {
   objOfValue = {
@@ -30,7 +30,6 @@ function onSubmitForm(event) {
   if (email.value === '' || message.value === '') {
     return alert('Please fill in all the fields!');
   }
-  console.log('User information:\n', objOfValue);
 
   event.currentTarget.reset();
 }
