@@ -40,6 +40,7 @@
   cursor: zoom-in;
 }
 
+<<<<<<< Updated upstream
 body.hidden-scroll {
   overflow: hidden;
 }
@@ -293,4 +294,6 @@ body.hidden-scroll {
   }
 }
 
+=======
+>>>>>>> Stashed changes
 /*# sourceMappingURL=01-gallery.7d68834f.css.map */

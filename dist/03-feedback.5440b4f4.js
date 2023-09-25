@@ -503,6 +503,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"eH52W":[function(require,module,exports) {
+<<<<<<< Updated upstream
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _lodashThrottle = require("lodash.throttle");
 var _lodashThrottleDefault = parcelHelpers.interopDefault(_lodashThrottle);
@@ -900,6 +901,8 @@ exports.export = function(dest, destName, get) {
         get: get
     });
 };
+=======
+>>>>>>> Stashed changes
 
 },{}]},["7Ih8d","eH52W"], "eH52W", "parcelRequired7c6")
 

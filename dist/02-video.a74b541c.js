@@ -503,6 +503,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"fFZ34":[function(require,module,exports) {
+<<<<<<< Updated upstream
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _player = require("@vimeo/player");
 var _playerDefault = parcelHelpers.interopDefault(_player);
@@ -3333,6 +3334,8 @@ var global = arguments[3];
     return isBinary || reIsOctal.test(value) ? freeParseInt(value.slice(2), isBinary ? 2 : 8) : reIsBadHex.test(value) ? NAN : +value;
 }
 module.exports = throttle;
+=======
+>>>>>>> Stashed changes
 
 },{}]},["5rKFT","fFZ34"], "fFZ34", "parcelRequired7c6")
 

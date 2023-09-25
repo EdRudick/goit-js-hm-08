@@ -503,6 +503,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"6XVkV":[function(require,module,exports) {
+<<<<<<< Updated upstream
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _galleryItemsJs = require("./gallery-items.js");
 // Change code below this line
@@ -521,6 +522,14 @@ const lightbox = new (0, _simplelightboxDefault.default)(".gallery a", {
 });
 
 },{"./gallery-items.js":"9C7dK","simplelightbox":"9ydBq","simplelightbox/dist/simple-lightbox.min.css":"kaxSc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9C7dK":[function(require,module,exports) {
+=======
+// Add imports above this line
+var _galleryItems = require("./gallery-items");
+// Change code below this line
+console.log((0, _galleryItems.galleryItems));
+
+},{"./gallery-items":"9C7dK"}],"9C7dK":[function(require,module,exports) {
+>>>>>>> Stashed changes
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "galleryItems", ()=>galleryItems);
@@ -602,6 +611,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
+<<<<<<< Updated upstream
 },{}],"9ydBq":[function(require,module,exports) {
 /*!
 	By André Rinas, www.andrerinas.de
@@ -2115,5 +2125,8 @@ exports["default"] = _default;
 global.SimpleLightbox = SimpleLightbox;
 
 },{}],"kaxSc":[function() {},{}]},["8EXaa","6XVkV"], "6XVkV", "parcelRequired7c6")
+=======
+},{}]},["8EXaa","6XVkV"], "6XVkV", "parcelRequired7c6")
+>>>>>>> Stashed changes
 
 //# sourceMappingURL=01-gallery.53390864.js.map
