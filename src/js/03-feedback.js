@@ -13,7 +13,7 @@ email.value = objOfValue.email.trim();
 message.value = objOfValue.message.trim();
 
 formRef.addEventListener('input', throttle(onInputForm, 500));
-formRef.addEventListener('submit', onsubmitForm);
+formRef.addEventListener('submit', onSubmitForm);
 
 function onInputForm(event) {
   objOfValue = {
